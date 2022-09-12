@@ -17,6 +17,6 @@ app.set('views',path.join(__dirname,'src/admin/views'));
 const router=require("./src/admin/router/router");
 app.use("/",router);
 
-app.listen(3030,()=>{
-    console.log(`server start on port 3030..`)
+app.listen(3020,()=>{
+    console.log(`server start on port 3020..`)
 })
